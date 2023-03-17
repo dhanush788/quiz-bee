@@ -1,0 +1,35 @@
+{
+    "questions": [
+      {
+        "question":"What is the capital of France?",
+        "options": [
+          "London",
+          "Paris",
+          "Madrid",
+          "Berlin"
+        ],
+        "correctAnswer": "Paris"
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+          "Mars",
+          "Venus",
+          "Jupiter",
+          "Saturn"
+        ],
+        "correctAnswer": "Jupiter"
+      },
+      {
+        "question": "Who invented the telephone?",
+        "options": [
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Benjamin Franklin"
+        ],
+        "correctAnswer": "Alexander Graham Bell"
+      }
+    ]
+  }
+  
