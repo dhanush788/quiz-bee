@@ -6,40 +6,59 @@ import  { useRef } from 'react';
 
 
 function Card() {
-    const questions= [
-        {
-          question:"What is the capital of France?",
-          options:[
-            "London",
-            "Paris",
-            "Madrid",
-            "Berlin"
-          ],
-          correctAnswer:"Paris"
-        }
-        ,
-      {
-        question: "What is the largest planet in our solar system?",
-        options: [
-          "Mars",
-          "Venus",
-          "Jupiter",
-          "Saturn"
-        ],
-        correctAnswer: "Jupiter"
-      }
-      ,
-      {
-        question: "Who invented the telephone?",
-        options: [
-          "Alexander Graham Bell",
-          "Thomas Edison",
-          "Nikola Tesla",
-          "Benjamin Franklin"
-        ],
-        correctAnswer: "Alexander Graham Bell"
-      }
-    ]
+  const questions = [
+    {
+      "question": "What is the capital city of Canada?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "correctAnswer": "Ottawa"
+    },
+    {
+      "question": "What is the tallest mammal in the world?",
+      "options": [
+        "Elephant",
+        "Giraffe",
+        "Rhinoceros",
+        "Hippopotamus"
+      ],
+      "correctAnswer": "Giraffe"
+    },
+    {
+      "question": "What is the smallest country in the world?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "Nauru",
+        "Liechtenstein"
+      ],
+      "correctAnswer": "Vatican City"
+    },
+    {
+      "question": "Who wrote the Harry Potter book series?",
+      "options": [
+        "J.K. Rowling",
+        "Stephenie Meyer",
+        "Suzanne Collins",
+        "Veronica Roth"
+      ],
+      "correctAnswer": "J.K. Rowling"
+    },
+    {
+      "question": "What is the largest country in South America by area?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Colombia",
+        "Peru"
+      ],
+      "correctAnswer": "Brazil"
+    }
+  ]
+  
 
 
 
