@@ -20,10 +20,10 @@ function App() {
   <Footer />
 
 	<Routes>
-		<Route exact path='/' element={<Home />} />
-    <Route path='/index' element={<Home/>} />
-    <Route path='/video' element={<Video/>} />
-    <Route path='/quiz' element={<Quiz/>} />
+		<Route exact path='/' Component={Home}/>
+    <Route path='/index' Component={Home} />
+    <Route path='/video' Component={Video} />
+    <Route path='/quiz' Component={Quiz} />
 	</Routes>
 	</Router>
         
