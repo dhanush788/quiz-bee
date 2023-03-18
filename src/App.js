@@ -25,7 +25,7 @@ function App() {
 	 	<Route exact path='/' Component={Home}/>
      <Route path='/index' Component={Home} />
      <Route path='/video' Component={Video} />
-     <Route path='/quiz' Component={Quiz} />
+     <Route path='*' Component={Quiz} />
 	 </Routes>
   <Footer>
    </Footer>
