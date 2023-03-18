@@ -110,8 +110,8 @@ p a {
 }
 
 .profile-picture-container {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   overflow: hidden;
   margin-top: 15px;
@@ -138,4 +138,55 @@ p a {
 .nav-about h2{
   margin-top: 0%;
   padding-top: 5px;
+}
+
+/* dashboard */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.blog-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.blog-post-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-post-content {
+  margin-bottom: 20px;
+}
+
+.blog-post-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.blog-post-link:hover {
+  background-color: #333;
+  color: #fff;
 }
