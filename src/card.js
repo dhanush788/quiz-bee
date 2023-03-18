@@ -53,8 +53,7 @@ function Card() {
     const [countOnes, setCount] = useState(0);
     const [Next, setvar] = useState("Next");
     const [isFinished, setIsFinished] = useState(false);
-    const colour=useRef([]);
-    const values = [1, 2, 3, 4, 5];
+    const colour=useRef([]); 
 
     
     // previous button
