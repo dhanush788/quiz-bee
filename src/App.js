@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 // import { BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages';
 import Video from './pages/video';
 import Quiz from './pages/quiz';
@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <div>
     <Navbar/>
 
 	 <Routes>
@@ -23,8 +23,8 @@ function App() {
 	 </Routes>
   <Footer>
    </Footer>
- 
-	 </BrowserRouter>
+   </div>
+
         
 
 );
