@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div>
-    <React.StrictMode>
       <HashRouter>
     <Navbar/>
 
@@ -23,14 +22,13 @@ function App() {
     <Routes>
 	 	<Route exact path='/' element={<Home />}/>
      <Route path='/index' element={<Home />} />
-     <Route path='/video' element={<Video />} />
      <Route path='/quiz' element={<Quiz />} />
+     <Route path='/video' element={<Video />} />
      </Routes>
      {/* </BrowserRouter> */}
 	 
   <Footer />
       </HashRouter>
-    </React.StrictMode>
   </div>
         
 
