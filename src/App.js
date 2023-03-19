@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages';
 import Video from './pages/video';
 import Quiz from './pages/quiz';
+import { HashRouter } from 'react-router-dom';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
 function App() {
@@ -12,19 +13,25 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <div>
+    <React.StrictMode>
+      <HashRouter>
     <Navbar/>
 
-	 <Routes>
-	 	<Route exact path='/' Component={Home}/>
-     <Route path='/index' Component={Home} />
-     <Route path='/video' Component={Video} />
-     <Route path='/quiz' Component={Quiz} />
-	 </Routes>
-  <Footer>
-   </Footer>
- 
-	 </BrowserRouter>
+  
+    {/* <BrowserRouter> */}
+    <Routes>
+	 	<Route exact path='/' element={<Home />}/>
+     <Route path='/index' element={<Home />} />
+     <Route path='/video' element={<Video />} />
+     <Route path='/quiz' element={<Quiz />} />
+     </Routes>
+     {/* </BrowserRouter> */}
+	 
+  <Footer />
+      </HashRouter>
+    </React.StrictMode>
+  </div>
         
 
 );

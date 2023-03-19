@@ -1,5 +1,6 @@
 {
   "name": "quiz",
+  "homepage": "https://exquisite-froyo-b8b079.netlify.app/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

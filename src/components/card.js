@@ -152,13 +152,13 @@ function Card() {
                 <h3>{currentIndex+1}.{questions[currentIndex].question}</h3>
               </div>
               <div className="card-body">
-                <button onClick={() => handleClick(questions[currentIndex].options[0] ,0)}>{questions[currentIndex].options[0]}</button>
-                <button onClick={() => handleClick(questions[currentIndex].options[1] ,1)}>{questions[currentIndex].options[1]}</button>
-                <button onClick={() => handleClick(questions[currentIndex].options[2] ,2)}>{questions[currentIndex].options[2]}</button>
-                <button onClick={() => handleClick(questions[currentIndex].options[3] ,3)}>{questions[currentIndex].options[3]}</button>
+                <button className="option" onClick={() => handleClick(questions[currentIndex].options[0] ,0)}>{questions[currentIndex].options[0]}</button>
+                <button className="option" onClick={() => handleClick(questions[currentIndex].options[1] ,1)}>{questions[currentIndex].options[1]}</button>
+                <button className="option" onClick={() => handleClick(questions[currentIndex].options[2] ,2)}>{questions[currentIndex].options[2]}</button>
+                <button className="option" onClick={() => handleClick(questions[currentIndex].options[3] ,3)}>{questions[currentIndex].options[3]}</button>
                 <div>
-                  <button onClick={handlePreClick}>Previous</button>
-                  <button onClick={handleNextClick}>{Next}</button>
+                  <button className="option" onClick={handlePreClick}>Previous</button>
+                  <button className="option" onClick={handleNextClick}>{Next}</button>
                 </div>
                 <div>
                   <p>Score={countOnes}</p>

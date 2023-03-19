@@ -44,7 +44,7 @@ function Vid(){
           <div>
             <h4>YouTube Video</h4>
             {Video.map((post) => (
-            <button onClick={() => handleClick(post.content)}>{post.title}</button>
+            <button className="option" onClick={() => handleClick(post.content)}>{post.title}</button>
             ))}
           </div>
       )}
@@ -68,7 +68,7 @@ function Vid(){
           <div>
             <h4>Spotify podcast</h4>
             {Podcast.map((post) => (
-                  <button onClick={() => handleNextClick(post.content)}>{post.title}</button>
+                  <button className="option" onClick={() => handleNextClick(post.content)}>{post.title}</button>
             ))}
           </div>
       )}
