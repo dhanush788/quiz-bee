@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 // import { BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages';
 import Video from './pages/video';
 import Quiz from './pages/quiz';
@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Navbar/>
 
 	 <Routes>
@@ -24,7 +24,7 @@ function App() {
   <Footer>
    </Footer>
  
-	 </BrowserRouter>
+	 </HashRouter>
         
 
 );
